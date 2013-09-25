@@ -1,6 +1,6 @@
 support asicminer block erupter on openwrt
 
-How to:
+How to build
 1. prepare an openwrt enviroment
 2. cd to openwrt directory
 3. clone this repo and cgminer folder to openwrt/package
@@ -10,3 +10,7 @@ How to:
    select cgminer in utility
 7. make j=4
 8. the openwrt compile environment will generate all the thing you need. You can find cgminer in ipk format in package folder
+
+
+How to run:
+cgminer -o pooladdress -u userid -p passwd --usb ICA:1
