@@ -39,7 +39,7 @@ monitoring, (over)clocking and fanspeed support for bitcoin and derivative
 coins. Do not use on multiple block chains at the same time!
 endef
 
-CONFIGURE_ARGS += --disable-opencl --disable-adl --without-curses --enable-avalon
+CONFIGURE_ARGS += --disable-opencl --disable-adl --without-curses --enable-icarus
 TARGET_LDFLAGS += -Wl,-rpath-link=$(STAGING_DIR)/usr/lib
 
 define Build/Compile
